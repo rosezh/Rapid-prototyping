@@ -1,0 +1,33 @@
+{
+  "name": "custom-component",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lerna":"lerna publish"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "async-validator": "^3.5.1",
+    "element-ui": "^2.4.5"
+  },
+  "devDependencies": {
+    "babel-plugin-component": "^1.1.1",
+    "lerna": "^4.0.0",
+    "vue-cli-plugin-element": "~1.0.1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "babel": {
+    "plugins": [
+      [
+        "component",
+        {
+          "libraryName": "element-ui",
+          "styleLibraryName": "theme-chalk"
+        }
+      ]
+    ]
+  }
+}
