@@ -1,5 +1,5 @@
 {
-  "name": "rs-form",
+  "name": "rose-form",
   "version": "0.0.2",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "7bf13b2a8dd47af798704a1e6bf1590d710b278a"
 }
